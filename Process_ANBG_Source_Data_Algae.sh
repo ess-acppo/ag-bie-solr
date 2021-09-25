@@ -14,7 +14,7 @@ workDir="/data/work/ANBG-ALGAE"
 sourceDir="${workDir}/${datestamp}"
 processDir="/data/processing/ANBG/NSL_Package_DwCA"
 processCmd="./NSL_Package_DwCA_run.sh"
-BNTi_server="algae.biodiversity.org.au"
+BNTi_server="test-algae.biodiversity.org.au"
 BNTi_URL="https://${BNTi_server}/nsl/services/export/taxonCsv"
 dataSetID="anbg-algae"
 

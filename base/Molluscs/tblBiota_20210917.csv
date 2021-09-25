@@ -1,0 +1,46 @@
+intBiotaID,intParentID,vchrEpithet,vchrFullName,vchrYearOfPub,vchrAuthor,vchrNameQualifier,chrElemType,vchrRank,chrKingdomCode,intOrder,vchrParentage,bitChangedComb,bitShadowed,bitUnplaced,bitUnverified,bitAvailableName,bitLiteratureName,dtDateCreated,vchrWhoCreated,dtDateLastUpdated,vchrWhoLastUpdated,txtDistQual,GUID
+N,0,,Animalia,,,,KING,kingdom,A,,,,,,,,,,,,,,A12E5032-0E8D-40D6-8A60-45D46A7F2617
+M2L,N,Mollusca,Mollusca,,,,P,phylum,A,0,,,,,,,,,,2009-03-17,,,3409FC0D-0404-4EC5-AE75-80A444AD1793
+7NF3Y,M2L,Gastropoda,Gastropoda,,"Cuvier, 1795",,C,class,A,0,,,,,,,,,,2018-04-15,,,F846DB44-B288-4BFB-BE48-7D367D4AFE64
+7NVXJ,7NF3Y,Heterobranchia,Heterobranchia,,"Burmeister, 1837",,SC,subclass,A,0,,,,,,,,,,2018-02-01,,,F233E8C8-0976-4360-86E2-3AE4E5928CFB
+7NF59,7NVXJ,Euthyneura,Euthyneura,,,,IC,infraclass,A,0,,,,,,,,,,2018-02-01,,,5127B884-BA5C-46CF-8B49-D12FB413999C
+7VBDS,7NF59,Tectipleura,Tectipleura,,,,STC,subterclass,A,0,,,,,,,,,,2019-06-28,,,B7FE8E13-9C50-478B-90C0-48EDE7CDA0D6
+7NVXY,7VBDS,Eupulmonata,Eupulmonata,,"Haszprunar & Huber, 1990",,SPO,superorder,A,0,,,,,,,,,,2018-02-01,,,06282C33-169C-412E-9412-BF972F369EE6
+7NFGB,7NVXY,Stylommatophora,Stylommatophora,,"A. Schmidt, 1855",,O,order,A,0,,,,,,,,,,2019-05-24,,,8F9BF402-515D-4FA6-A560-819368CC03D0
+7NVZP,7NFGB,Helicina,Helicina,,"Rafinesque, 1815",,SBO,suborder,A,0,,,,,,,,,,2019-05-24,,,C1930C7D-88AB-470D-A6CC-10E490B4C6DB
+7NW29,7NVZP,Helicoidei,Helicoidei,,,,IO,infraorder,A,0,,,,,,,,,,2018-02-03,,,4EFDDE63-A10C-4671-AFBE-627FBAD00BA6
+7NGNS,7NW29,Helicoidea,Helicoidea,,"Rafinesque, 1815",,SPF,superfamily,A,0,,,,,,,,,,2013-08-25,,,7E6CE1E4-08E8-4261-A7DE-C6C709BA32D7
+7NHSG,7NGNS,Helicidae,Helicidae,,"Rafinesque, 1815",,F,family,A,0,,,,,,,,,,2016-03-02,,,DCFC0CBE-1083-499D-9ED7-AAEFD98307BE
+7NXFD,7NHSG,Ariantinae,Ariantinae,,"Mörch, 1864",,SBF,subfamily,A,0,,,,,,,,,,2017-01-12,,,9E4A8923-CEA6-4FAA-9054-12F88589CC6A
+7NXPL,7NHSG,Helicinae,Helicinae,,"Rafinesque, 1815",,SBF,subfamily,A,0,,,,,,,,,,2017-06-14,,,B21D970B-B0B7-4D12-9429-CD71BE48540F
+7NXVB,7NHSG,Murellinae,Murellinae,,"P. Hesse, 1918",,SBF,subfamily,A,0,,,,,,,,,,2019-03-01,,,EEF1EC79-15E4-45AD-B64D-1CE5DE7C1919
+7P9H2,7NHSG,Nanhaispira,Nanhaispira,,"Yü & Zhang, 1982",,G,genus,A,0,,,,,,,,,,2017-01-12,,,C1DA2070-958F-4AF8-80DC-186DD9D47A92
+7NXPL,7NHSG,Helicinae,Helicinae,,"Rafinesque, 1815",,SBF,subfamily,A,0,,,,,,,,,,2017-06-14,,,D091B15A-6B1E-4637-B0F6-D91BA730EEA7
+7NYC9,7NXPL,Allognathini,Allognathini,,"Westerlund, 1903",,T,tribe,A,0,,,,,,,,,,2020-02-11,,,8F281848-0B58-4746-A167-49697EBF67CB
+7P2GN,7NXPL,Creneatachea,Creneatachea,,"Zilch, 1960",,G,genus,A,0,,,,,,,,,,2021-03-24,,,6D72BB7B-CA1C-4EFA-8B5F-9E9D62260F7A
+7NYG2,7NXPL,Ereminini,Ereminini,,"D. T. Holyoak, G. A. Holyoak, Gómez Moliner & Checa, 2020",,T,tribe,A,0,,,,,,,,,,2017-10-29,,,88185428-E9D8-4C1E-B6A4-4B77543B0EBB
+7P436,7NXPL,Frechenia,Frechenia,,"Schlickum & Strauch, 1971",,G,genus,A,0,,,,,,,,,,2017-06-14,,,22589FDD-CB09-44EF-B387-96A9FD4B48D1
+7NYGZ,7NXPL,Helicini,Helicini,,"Rafinesque, 1815",,T,tribe,A,0,,,,,,,,,,2019-03-21,,,8D276C1E-CAF7-4B7D-92F6-841800D9B6C4
+7P8LT,7NXPL,Megalotachea,Megalotachea,,"Pfeffer, 1930",,G,genus,A,0,,,,,,,,,,2017-06-14,,,A179A654-30BE-454E-BFF6-FEFDC6FD7FA8
+7NYK2,7NXPL,Otalini,Otalini,,"G. Pfeffer, 1930",,T,tribe,A,0,,,,,,,,,,2018-01-12,,,FCAB76E9-0D91-4EBF-B98E-5E48E6C86A8E
+7PBL6,7NXPL,Palaeotachea,Palaeotachea,,"Jooss, 1912",,G,genus,A,0,,,,,,,,,,2017-11-06,,,9BE4E11F-697A-4B60-A1F3-4A7CE1B2429B
+7PBQV,7NXPL,Parachloraea,Parachloraea,,"Sandberger, 1873",,G,genus,A,0,,,,,,,,,,2017-01-12,,,4E375DD3-A553-49A1-A7F6-3B6FADE794B6
+7PGD4,7NXPL,Schlickumia,Schlickumia,,"Truc, 1971",,G,genus,A,0,,,,,,,,,,2017-06-14,,,B75870A3-F7DB-4BE5-B9AD-7F823F30F8AA
+7NYLL,7NXPL,Thebini,Thebini,,"Wenz, 1923",,T,tribe,A,0,,,,,,,,,,2021-04-15,,,B665E292-7498-4934-9498-A2099E257F11
+7PJL3,7NXPL,Titthodomus,Titthodomus,,"Pfeffer, 1930",,G,genus,A,0,,,,,,,,,,2019-11-16,,,DCA41FAB-5E55-49CC-9518-1E4CE52B2C7C
+7NVWL,7NYK2,Cantareus,Cantareus,,"Risso, 1826",,G,genus,A,0,,,,,,,,,,2018-12-13,,,DB96930F-EB6F-416E-AC25-C28D76731809
+7P2BZ,7NYK2,Cornu,Cornu,,"Born, 1778",,G,genus,A,0,,,,,,,,,,2021-04-09,,,ED62AC97-F825-43A9-9F31-1B3D227B4A19
+b6436e40-9e74-471a-9e86-0743860fe556,7NYK2,Eobania,Eobania,,"P. Hesse, 1913",,G,genus,A,0,,,,,,,,,,2017-06-15,,,C87180E3-B2DB-4835-B872-A99B7D988D37
+7P54G,7NYK2,Hessea,Hessea,,"C.R. Boettger, 1911",,G,genus,A,0,,,,,,,,,,2020-08-23,,,695FD8A5-090C-477A-BD9E-99AF10CCBF94
+7P5NH,7NYK2,Idiomela,Idiomela,,"T. Cockerell, 1921",,G,genus,A,0,,,,,,,,,,2020-10-03,,,92B2D588-5805-47FD-BAF1-95664EC37286
+7P7WC,7NYK2,Loxana,Loxana,,"Pallary, 1899",,G,genus,A,0,,,,,,,,,,2020-10-03,,,37328870-94D4-4984-951A-5D8FD4C024E3
+7P8J3,7NYK2,Massylaea,Massylaea,,"Möllendorff, 1898",,G,genus,A,0,,,,,,,,,,2017-09-15,,,0D3B57E3-ABB4-4001-ABD9-9919848F9062
+7P8K3,7NYK2,Maurohelix,Maurohelix,,"P. Hesse, 1917",,G,genus,A,0,,,,,,,,,,2021-01-03,,,43277661-9BFE-4671-9EA0-6C5FDB08AC40
+7PBDW,7NYK2,Otala,Otala,,"Schumacher, 1817",,G,genus,A,0,,,,,,,,,,2021-06-14,,,DDC3D6BF-FD9A-4008-B28C-D2108EB455ED
+7PFY4,7NYK2,Rossmaessleria,Rossmaessleria,,"P. Hesse, 1907",,G,genus,A,0,,,,,,,,,,2017-06-15,,,E0BF1EFB-E9AB-4F04-9FCF-CADAF288A4F2
+43672113-558f-4180-8392-795efdc4c816,b6436e40-9e74-471a-9e86-0743860fe556,Eobania constantina,Eobania constantina,,"(E. Forbes, 1838)",,SP,species,A,0,,,,,,,,,,2020-10-03,,,18277CA8-CEB1-4D44-A4F4-6370585599E6
+8d12f391-5f09-4d11-b19a-0755b09100b9,b6436e40-9e74-471a-9e86-0743860fe556,Eobania magnilabiata,Eobania magnilabiata,,"(Sacco, 1884)",,SP,species,A,0,,,,,,,,,,2020-10-03,,,5ADDDCC2-0369-44D1-A438-E0214B9721EE
+3948be1f-2abd-4ae3-ad76-9aafed57d92a,b6436e40-9e74-471a-9e86-0743860fe556,Eobania vermicularia,Eobania vermicularia,,"(Michelotti, 1840)",,SP,species,A,0,,,,,,,,,,2020-10-03,,,BEECA25A-FEFB-4069-B591-9E495622AAD8
+a69d1b96-0dd8-4b4f-b272-741522935c29,b6436e40-9e74-471a-9e86-0743860fe556,Eobania vermiculata,Eobania vermiculata,,"(O. F. Müller, 1774)",,SP,species,A,0,,,,,,,,,,2020-10-03,,,038CAF21-508D-4A5B-9CAC-6A985DAC7B8B
+c526280a-0be2-4d36-80e7-1f061fa82367,b6436e40-9e74-471a-9e86-0743860fe556,Eobania zilchi,Eobania zilchi,,"Moisescu, 1982",,SP,species,A,0,,,,,,,,,,2020-10-03,,,00745BC4-777A-4F5C-AC79-A98B76D85227
+87GNB,7NYK2,Loxana,Loxana,,"Pallary, 1899",,G,genus,A,0,,,,,,,,,,2020-10-03,,,883ABEB5-9F60-4676-81C6-1E8F1F2486B7

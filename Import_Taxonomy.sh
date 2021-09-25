@@ -61,7 +61,7 @@ while [ "$count" -gt 0 ]; do
    exit 0
  fi
  count=`expr $count - 1`
- sleep 60
+ sleep 30
 done
 echo "Timed out waiting for import to complete"
 exit 3

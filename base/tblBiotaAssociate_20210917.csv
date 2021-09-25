@@ -1,0 +1,3 @@
+﻿intBiotaAssociateID,intBiotaID,tintAssocType,intAssocBiotaID,vchrAssocBiotaText,vchrRelationForward,vchrRelationReverse,intRefID,vchrRefPage,bitUncertain,txtNotes,GUID,K
+139,52785,0,52783,,has synonym,is a synonym of,,,FALSE,,{A56BA910-A94E-402D-B068-6D019E190348},L 
+140,52783,0,52785,,is a synonym of,has synonym,,,FALSE,,{0AC65FD5-F5BC-405A-A56C-6C681A856AE5},L 

@@ -1,0 +1,7 @@
+# WORKING FIXED
+cp base/fixed_tblBiota_20210917.csv base/tblBiota_20210917.csv 
+# BROKEN
+cp base/broken_tblBiota_20210917.csv base/tblBiota_20210917.csv
+# Change source weight
+sudo vim /data/processing/config/taxxas-taxon-config.json
+
