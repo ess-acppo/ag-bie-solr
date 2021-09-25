@@ -21,8 +21,8 @@ sourceDir="${workDir}/${datestamp}"
 cd "${sourceDir}" || bail "Unable to access source directory ${sourceDir}"
 rm -rf * || bail "Unable to clear source directory ${sourceDir}"
 tblBiota="tblBiota_${datestamp}.csv"
-cp ~/ag-bie-solr/base/Molluscs/tblBiota_empty.csv $tblBiota
+cp ~/ag-bie-solr/base/Molluscs/tblBiota_moll.csv $tblBiota
 tblBiotaAssociate="tblBiotaAssociate_${datestamp}.csv"
-cp ~/ag-bie-solr/base/Molluscs/tblBiotaAssociate_empty.csv $tblBiotaAssociate
+cp ~/ag-bie-solr/base/Molluscs/tblBiotaAssociate_moll.csv $tblBiotaAssociate
 tblCommonName="tblCommonName_${datestamp}.csv"
-cp ~/ag-bie-solr/base/Molluscs/tblCommonName_empty.csv $tblCommonName
+cp ~/ag-bie-solr/base/Molluscs/tblCommonName_moll.csv $tblCommonName

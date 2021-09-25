@@ -28,4 +28,5 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "Processing Results"
-wc -l "${workDir}"/DwC/*
+wc -l "${workDir}"/DwC/*.csv
+wc -l "${workDir}"/Processed/*.csv
