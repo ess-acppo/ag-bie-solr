@@ -10,24 +10,15 @@ echo "${datestamp}"
 
 # Configuration
 configDir="/data/processing/config"
-workDir="/data/work/ANBG-ALGAE"
+workDir="/data/work/CoL"
 sourceDir="${workDir}/${datestamp}"
-processDir="/data/processing/ANBG/NSL_Package_DwCA"
-processCmd="./NSL_Package_DwCA_run.sh"
-BNTi_server="test-algae.biodiversity.org.au"
-BNTi_URL="https://${BNTi_server}/nsl/services/export/taxonCsv"
-dataSetID="anbg-algae"
+processDir="/data/processing/CoL/CoL_Package_DwCA"
+processCmd="./CoL_Package_DwCA_run.sh"
+dataSetID="col-moll"
 
 # Clear work area
 rm "${workDir}"/DwC/*
 rm "${workDir}"/Processed/*
-
-# get the BNTi (icn) CSV:
-mkdir -p "${sourceDir}"
-
-echo "Downloading BNTi names CSV from: ${BNTi_URL}"
-curl -s "${BNTi_URL}" > "${sourceDir}"/nsl_dawr_bieexport.csv
-ls -lahF "${sourceDir}"/nsl_dawr_bieexport.csv
 
 # Convert TaxxaS tables into DwCA
 cd "${processDir}" || bail "Uable to get to process directory ${processDir}"

@@ -21,6 +21,7 @@ anbgLICHDir="/data/work/ANBG-LICH"
 anbgVASCDir="/data/work/ANBG-VASC"
 anbgFUNGIDir="/data/work/ANBG-FUNGI"
 anbgALGAEIDir="/data/work/ANBG-ALGAE"
+colMollDir="/data/work/COL-MOLL"
 combineDir="/data/processing/ala-name-matching"
 combineCmd="build-combined.sh"
 combinedDir="${workDir}/combined_${datestamp}"
@@ -32,7 +33,7 @@ rm "${combined}"/*
 
 # Combine DwCAs
 cd "${combineDir}" || bail "Uable to get to process directory ${combineDir}"
-./build-combined.sh -c "${configDir}/taxxas-taxon-config.json" -w "${workDir}" -o "${combined}"  "${taxxasDir}/DwC/" "${anbgALGAEIDir}/DwC"
+./build-combined.sh -c "${configDir}/taxxas-taxon-config.json" -w "${workDir}" -o "${combined}"  "${taxxasDir}/DwC/" "${anbgALGAEIDir}/DwC" "${colMollDir}/DwC"
 #./build-combined.sh -c "${configDir}/taxxas-taxon-config.json" -w "${workDir}" -o "${combined}"  "${taxxasDir}/DwC/"
 if [ $? -ne 0 ]; then
  bail "Unable to combine taxonomies"
