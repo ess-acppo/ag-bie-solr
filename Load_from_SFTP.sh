@@ -10,7 +10,7 @@ echo "${datestamp}"
 
 # Configuration
 username=dawr
-configDir=/data/taxxas/config
+configDir="/data/processing/config"
 workDir=/data/work/taxxas
 sourceDir="${workDir}/${datestamp}"
 credentials="${configDir}/.ssh/${username}.pem"
