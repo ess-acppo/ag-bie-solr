@@ -23,12 +23,12 @@ sftpServer="mgmt.oztaxa.com"
 cd "${sourceDir}" || bail "Unable to access source directory ${sourceDir}"
 rm -rf * || bail "Unable to clear source directory ${sourceDir}"
 tblBiota="tblBiota_${datestamp}.csv"
-#sftp -oStrictHostKeyChecking=no -i "${credentials}" "${username}@${sftpServer}:${tblBiota}" || bail "Unable to retrieve ${tblBiota}"
-cp ~/ag-bie-solr/base/tblBiota_20210917.csv $tblBiota
+sftp -oStrictHostKeyChecking=no -i "${credentials}" "${username}@${sftpServer}:${tblBiota}" || bail "Unable to retrieve ${tblBiota}"
+#cp ~/ag-bie-solr/base/tblBiota_20210917.csv $tblBiota
 tblBiotaAssociate="tblBiotaAssociate_${datestamp}.csv"
-cp ~/ag-bie-solr/base/tblBiotaAssociate_20210917.csv $tblBiotaAssociate
-#sftp -oStrictHostKeyChecking=no -i "${credentials}" "${username}@${sftpServer}:${tblBiotaAssociate}" || bail "Unable to retrieve ${tblBiotaAssociate}"
+#cp ~/ag-bie-solr/base/tblBiotaAssociate_20210917.csv $tblBiotaAssociate
+sftp -oStrictHostKeyChecking=no -i "${credentials}" "${username}@${sftpServer}:${tblBiotaAssociate}" || bail "Unable to retrieve ${tblBiotaAssociate}"
 tblCommonName="tblCommonName_${datestamp}.csv"
-cp ~/ag-bie-solr/base/tblCommonName_20210917.csv $tblCommonName
-#sftp -oStrictHostKeyChecking=no -i "${credentials}" "${username}@${sftpServer}:${tblCommonName}" || bail "Unable to retrieve ${tblCommonName}"
+#cp ~/ag-bie-solr/base/tblCommonName_20210917.csv $tblCommonName
+sftp -oStrictHostKeyChecking=no -i "${credentials}" "${username}@${sftpServer}:${tblCommonName}" || bail "Unable to retrieve ${tblCommonName}"
 

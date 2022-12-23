@@ -14,7 +14,7 @@ workDir="/data/work/NSL-ICN"
 sourceDir="${workDir}/${datestamp}"
 processDir="/data/processing/NSL/NSL_Package_DwCA"
 processCmd="./NSL_Package_DwCA_run.sh"
-BNTi_server="icn.oztaxa.com"
+BNTi_server="sit-icn.oztaxa.com"
 BNTi_URL="https://${BNTi_server}/nxl/services/export/taxonCsv"
 dataSetID="nsl-icn"
 
