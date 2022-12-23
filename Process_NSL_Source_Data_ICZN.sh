@@ -14,7 +14,7 @@ workDir="/data/work/NSL-ICZN"
 sourceDir="${workDir}/${datestamp}"
 processDir="/data/processing/NSL/NSL_Package_DwCA"
 processCmd="./NSL_Package_DwCA_run.sh"
-BNTi_server="iczn.oztaxa.com"
+BNTi_server="sit-iczn.oztaxa.com"
 BNTi_URL="https://${BNTi_server}/nxl/services/export/taxonCsv"
 dataSetID="nsl-iczn"
 
@@ -28,6 +28,8 @@ mkdir -p "${sourceDir}"
 echo "Downloading BNTi names CSV from: ${BNTi_URL}"
 curl -s "${BNTi_URL}" > "${sourceDir}"/nsl_dawr_bieexport.csv
 ls -lahF "${sourceDir}"/nsl_dawr_bieexport.csv
+
+sed -ie 's/ICN/ICZN/g' "${sourceDir}"/nsl_dawr_bieexport.csv
 
 # Convert TaxxaS tables into DwCA
 cd "${processDir}" || bail "Uable to get to process directory ${processDir}"

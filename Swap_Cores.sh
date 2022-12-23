@@ -15,3 +15,4 @@ core2=bie-offline
 
 # Swap cores
 curl -X GET -f "${solrUrl}/admin/cores?action=SWAP&core=${core1}&other=${core2}" || bail "Unable to swap cores"
+cp /data/work/combined/taxonomy_report.csv .
